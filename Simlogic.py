@@ -4,8 +4,8 @@ import numpy as np
 class SimMagnet():
     def __init__(self, position):
         """
-        Single magnet class used by the logic to a single magnetic field with
-        the Biot-Savart law
+        Single magnet class used by the logic to simulatea single magnetic field
+        with the Biot-Savart law
 
         :param position list[int]: The position of the magnet in the logic
         """
@@ -100,7 +100,7 @@ class SimLogic():
 
     def set_magnets_activity_logic(self, activities):
         """
-        Set the activity of every magnet in the simulation
+        Set the activity of every magnets in the simulation
 
         :param activities list[bool]: activities of each magnet
         """
@@ -128,7 +128,7 @@ class SimLogic():
 
     def update_phy_ball(self, dt):
         """
-        Main function which updates the physic whole physic on a dt time step
+        Main function which updates the whole physic on a dt time step
 
         :param dt float: The time step of the simulation
         """
