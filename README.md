@@ -3,7 +3,7 @@
 ![AI_INSTITUTE](imgs/ai_institute.png)
 
 This gym environment is used to train an algorithm in simulation before using
-in a similar real world environment at the AI Institute in Dynamic Systems
+it in a similar real world environment at the AI Institute in Dynamic Systems
 
 ## Description
 
